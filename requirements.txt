@@ -1,0 +1,4 @@
+pydantic==2.6.1
+pydantic-ai==0.1.0  # Adjust version as needed
+ollama==0.1.7  # Adjust version as needed
+typing-extensions==4.9.0
