@@ -1,35 +1,43 @@
-# Pydantic Tools Ollama Project
+# Pydantic AI & Ollama Local Agent Prototype
 
 ## Overview
-This project is a Python-based tool utilizing Pydantic and Ollama for advanced data management and AI-powered interactions.
+This is an experimental engineering notebook entry demonstrating the integration of PydanticAI and Ollama to create a local AI agent capable of using tools. It serves as a proof-of-concept and learning resource for building intelligent, context-aware agents using open-source AI technologies.
 
-## Features
-- Robust data validation using Pydantic
-- AI-powered CRUD operations
-- Flexible and extensible design
+## Key Features
+- Utilizes PydanticAI for structured AI interactions
+- Leverages Ollama for local AI model inference
+- Implements a tool-using agent with intent extraction
+- Demonstrates note creation, reading, and listing functionality
 
-## Prerequisites
-- Python 3.8+
+## Technical Highlights
+- Dynamic intent understanding
+- Flexible tool-based agent design
+- Local AI processing with Ollama
+- Pydantic-based data validation and modeling
+
+## Purpose
+This project is not a production-ready application, but rather:
+- An exploration of AI agent capabilities
+- A reference implementation for AI tool integration
+- A learning resource for AI engineering techniques
+
+## Technologies
+- PydanticAI
 - Ollama
-- Required dependencies listed in `requirements.txt`
+- Python asyncio
+- Local AI inference
 
-## Installation
-1. Clone the repository
-2. Create a virtual environment
-   ```bash
-   python -m venv venv
-   source venv/bin/activate
-   ```
-3. Install dependencies
-   ```bash
-   pip install -r requirements.txt
-   ```
+## Running the Prototype
+```bash
+python crud_agent.py
+```
 
-## Usage
-[Provide specific usage instructions for your project]
+## Inspiration
+This project was inspired by Skolo Online's YouTube tutorial [Building a CRUD AI Agent](https://www.youtube.com/watch?v=OAbyC1kMj5w). Key differences from the original implementation:
+- Uses flat files instead of a database for storage
+- Utilizes Ollama for local LLM inference
 
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+The original tutorial demonstrated a powerful concept of an AI agent with tool-using capabilities, which served as a foundational inspiration for this prototype.
 
-## License
-[Specify your license, e.g., MIT]
+## Experimental Notes
+This doesn't include all elements of CRUD for brevity.
